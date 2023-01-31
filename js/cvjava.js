@@ -1,4 +1,5 @@
-document.getElementById("boton").onclick= function () {
-    console.log("capturamos el elemento click")
-    document.getElementById("demo").innerHTML= "+473812454751"
+document.getElementById("demo").onclick= function() {myFunction()}
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
 }
