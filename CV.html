@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,9 +13,11 @@
     
     <div class="container text-left  p-2 my-5 bg-primary text-white rounded ">
         <div class="row">
-            <div class="col ">
-                <img src="https://randomuser.me/api/portraits/men/80.jpg" class="rounded-circle" alt="foto Alan Robinson" width: 30px >
-                <h1>Alan Robinson</h1>
+            <div class="col" id="columna">
+                <img src="https://randomuser.me/api/portraits/men/80.jpg" class="rounded-circle" alt="foto Alan Robinson" width: 30px id="foto" >
+                <script src=js/funciones.js> </script>
+                <p id="fn"></p>
+                <h1 id="alan">Alan Robinson</h1>
                 <h4>Enfermero profesional</h4>
                     
             </div>
@@ -27,8 +30,16 @@
                 Celular</button>
                 <script src=js/funciones.js> </script>
                 <p id="demo"></p>
-                <p>E-mail: alan.robinson@example.com</p>
-                <p>Domicilio: 7680 Shady Ln Dr</p>
+                <button type="button"
+                id="botone">
+                E-mail</button>
+                <script src=js/funciones.js> </script>
+                <p id="email"></p>
+                <button type="button"
+                id="botondire">
+                Domicilio</button>
+                <script src=js/funciones.js> </script>
+                <p id="domicilio"></p>
             </div>
         </div>
     </div>    
@@ -57,8 +68,6 @@
                                 <li>Tratamiento pacientes provenientes de guardia</li>
                             </ul>
             </div>
-        
-    
             <div class="col text-left">
                 <h3>Acerca de Alan</h3>
                 <p>Soy un enfermero muy dedicado y detallista, siempre dispuesto a colaborar con mis compañeros. Soy enfermero de vocacion. 
@@ -101,12 +110,10 @@
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%">90%</div>
                                 </div>
                             </div>    
-                        </div>
-                      
+                        </div> 
                 </div>
             </div>
         </div>    
     </div>
-    
 </body>
 </html>
